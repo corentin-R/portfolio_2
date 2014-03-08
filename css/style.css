@@ -1131,3 +1131,14 @@ p.txt2{
 		margin-left: -3px;
 	}
 }
+
+
+
+ .logo
+ {
+	width : 60px;
+	height: 60px;
+	display:inline;
+	margin-left: 20px;
+	margin-right: 20px;
+ }
