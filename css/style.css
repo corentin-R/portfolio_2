@@ -30,10 +30,10 @@ img{max-width:100%;}
 /*end reset*/
 @font-face {
     font-family: 'bebas_neueregular';
-    src:url(../fonts/BebasNeue-webfont.ttf) format('truetype');
+    src:url(../fonts/Volter__28Goldfish_29.ttf) format('truetype');
 }
 body{
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'bebas_neueregular';/*font-family:Arial, Helvetica, sans-serif;*/
 	background:#fff;
 }
 .wrap{
@@ -49,7 +49,7 @@ body{
 }
 .logo h1 a{
 	color: #FFF;
-	font-size: 6em;
+	font-size: 5em;
 	font-family: 'bebas_neueregular';
 }
 /*--menu--*/
@@ -63,11 +63,11 @@ body{
 }
 .cssmenu > ul > li.active a, .cssmenu > ul > li a:hover {
 	color: #000;
-	background:#E4E24F;
+	background:#4477B2;/*#4477B2*/
 }
 .cssmenu > ul > li > a {
 	text-transform: uppercase;
-	font: normal 15px/30px PT Sans, sans-serif;
+	font-family: 'bebas_neueregular';/*font: normal 15px/30px PT Sans, sans-serif;*/
 	color: #FFF;
 	display: block;
 	line-height: 4.8em;
@@ -75,17 +75,17 @@ body{
 	letter-spacing: 1px;
 }
 .header{
-	background:#e4e24f;
+	background: #4477B2;/*#4477B2;*/
 	padding: 2% 0;
 }
 .header-text {
 	float: right;
 	margin: -100px 20px;
 	font-size: 0.8125em;
-	color:#8A8803;
+	color:#DEE5EC;
 }
 .header-text .phone {
-	color:#8A8803;
+	color:#DEE5EC;
 	font:16px/1.2em Arial, Helvetica, sans-serif;
 	padding-left: 20px;
 	display: inline-block;
@@ -107,6 +107,13 @@ body{
 	text-align: center;
 	color: #888;
 	font-size: 3em;
+	font-family: 'bebas_neueregular';
+	margin-bottom: 20px;
+}
+.top-box h3{
+	text-align: center;
+	color: #888;
+	font-size: 2em;
 	font-family: 'bebas_neueregular';
 	margin-bottom: 20px;
 }
@@ -132,7 +139,7 @@ hr {
 	width: 65%;
 	margin: 0 auto;
 }
-/*  GRID OF FIVE   ============================================================================= */
+/*  GRID OF FIVE ============================================================================= */
 .col_1_of_5{
 	display: block;
 	float: left;
@@ -223,7 +230,7 @@ hr {
 	letter-spacing: -1px;
 }
 .span_1_of_4  h3 a:hover{
-	color:#E4E24F;
+	color:#4477B2;
 }
 /***** Media Quries *****/
 @media only screen and (max-width: 1024px) {
@@ -286,7 +293,7 @@ time {
 	margin-bottom: 8px;
 }
 .lnk {
-	color:#E4E24F;
+	color:#4477B2;
 	font-size: 1.2em;
 	line-height: 1.2;
 	font-family: 'PT Sans', sans-serif;
@@ -308,7 +315,7 @@ time {
 } 
 .btn.btn-primary {
 	box-shadow: none;
-	background: #E4E24F;
+	background: #4477B2;
 	position: relative;
 	font-size: 0.99em;
 	display: inline-block;
@@ -354,6 +361,13 @@ time {
 	text-transform:uppercase;
 	margin-bottom:2%;
 }
+.footer-text h3{
+	color:#fff;
+	font-size:2em;
+	font-family: 'bebas_neueregular';
+	text-transform:uppercase;
+	margin-bottom:2%;
+}
 .footer-text p{
 	font-size:0.8125em;
 	line-height:1.5em;
@@ -375,7 +389,7 @@ ul.follow_icon li {
 	font-size:0.8125em;
 }
 .copy p a{
-	color:#E4E24F;
+	color:#4477B2;
 }
 .copy p a:hover{
 	color:#fff;
@@ -538,7 +552,7 @@ ul.follow_icon li {
 	color: #999;
 }
 .comments-custom.unstyled .comments-custom_txt a:hover {
-	color:#E4E24F;
+	color:#4477B2;
 }
 .span_1_of_about1 {
 	width: 23.2%;
@@ -553,7 +567,7 @@ p.desc{
 	padding: 0 100px;
 }
 h4.head{
-	color:#BDBA04;
+	color:#4477B2;
 	font-family: 'PT Sans', sans-serif;
 	font-size:0.8125em;
 	line-height:1.5em;
@@ -567,14 +581,14 @@ h4.head{
 	display: block;
 }
 h4 {
-	color: #BDBA04;
+	color: #4477B2;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.4em;
 	line-height: 1.5em;
 	text-transform: uppercase;
 }
 h5 {
-	color: #BDBA04;
+	color: #4477B2;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.2em;
 	line-height: 1.5em;
@@ -599,7 +613,7 @@ p.txt2{
 /*  Contact Form  ============================================================================= */
 .col{
 	display: block;
-	float:left;
+	/*float:left;*/
 	margin: 1% 0 1% 3.6%;
 }
 .col:first-child{
@@ -738,7 +752,7 @@ p.txt2{
 /*--404--*/
 .page-not-found h1 {
 	font-size: 15em;
-	color: #F0F0F0;
+	color: #E0E0E0;
 	text-align: center;
 }
 /*--responsive design--*/
@@ -800,6 +814,9 @@ p.txt2{
 	.top-box h2 {
 		font-size: 2.5em;
 	}
+	.top-box h3 {
+		font-size: 1.5em;
+	}
 	hr {
 		width: 350px;
 	}
@@ -823,6 +840,10 @@ p.txt2{
 	}
 	.footer-text h2 {
 		font-size: 2.5em;
+	}
+		}
+	.footer-text h3 {
+		font-size: 1.5em;
 	}
 }
 @media (max-width:768px){
@@ -859,6 +880,9 @@ p.txt2{
 	.top-box h2 {
 		font-size: 2.5em;
 	}
+	.top-box h3 {
+		font-size: 1.5em;
+	}
 	hr {
 		width: 350px;
 	}
@@ -882,6 +906,9 @@ p.txt2{
 	}
 	.footer-text h2 {
 		font-size: 2.5em;
+	}
+	.footer-text h3 {
+		font-size: 1.5em;
 	}
 	.header {
 		padding:20px 0;
@@ -950,6 +977,9 @@ p.txt2{
 	.top-box h2 {
 		font-size:2em;
 	}
+	.top-box h3 {
+		font-size:1em;
+	}
 	hr {
 		width: 350px;
 	}
@@ -973,6 +1003,9 @@ p.txt2{
 	}
 	.footer-text h2 {
 		font-size: 2em;
+	}
+	.footer-text h3 {
+		font-size: 1em;
 	}
 	.header {
 		padding:20px 0;
@@ -1047,6 +1080,9 @@ p.txt2{
 	.top-box h2 {
 		font-size:2em;
 	}
+	.top-box h3 {
+		font-size:1em;
+	}
 	hr {
 		width:230px;
 	}
@@ -1070,6 +1106,9 @@ p.txt2{
 	}
 	.footer-text h2 {
 		font-size: 2em;
+	}
+	.footer-text h3 {
+		font-size: 1em;
 	}
 	.header {
 		padding:20px 0;
